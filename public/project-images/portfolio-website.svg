@@ -1,0 +1,84 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="portfolioGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#EC4899;stop-opacity:0.1" />
+    </linearGradient>
+    <linearGradient id="screenGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6" />
+      <stop offset="100%" style="stop-color:#EC4899" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="300" fill="url(#portfolioGradient)"/>
+  
+  <!-- Computer Monitor -->
+  <g transform="translate(200, 120)">
+    <rect x="-60" y="-40" width="120" height="80" fill="#1F2937" rx="8"/>
+    <rect x="-55" y="-35" width="110" height="70" fill="url(#screenGradient)" rx="5"/>
+    
+    <!-- Screen Content -->
+    <rect x="-45" y="-25" width="90" height="8" fill="white" opacity="0.9"/>
+    <rect x="-45" y="-10" width="70" height="6" fill="white" opacity="0.7"/>
+    <rect x="-45" y="0" width="80" height="6" fill="white" opacity="0.7"/>
+    <rect x="-45" y="10" width="60" height="6" fill="white" opacity="0.7"/>
+    <rect x="-45" y="20" width="85" height="6" fill="white" opacity="0.7"/>
+    <rect x="-45" y="30" width="75" height="6" fill="white" opacity="0.7"/>
+    
+    <!-- Stand -->
+    <rect x="-8" y="40" width="16" height="20" fill="#1F2937"/>
+    <rect x="-20" y="60" width="40" height="8" fill="#1F2937" rx="4"/>
+  </g>
+  
+  <!-- Code Elements -->
+  <g transform="translate(100, 200)">
+    <rect x="0" y="0" width="60" height="40" fill="#8B5CF6" opacity="0.8" rx="5"/>
+    <text x="30" y="15" text-anchor="middle" fill="white" font-size="8" font-family="monospace">{ }</text>
+    <text x="30" y="25" text-anchor="middle" fill="white" font-size="8" font-family="monospace">&lt;/&gt;</text>
+    <text x="30" y="35" text-anchor="middle" fill="white" font-size="8" font-family="monospace">( )</text>
+  </g>
+  
+  <g transform="translate(170, 190)">
+    <rect x="0" y="0" width="50" height="35" fill="#EC4899" opacity="0.8" rx="5"/>
+    <text x="25" y="12" text-anchor="middle" fill="white" font-size="8" font-family="monospace">CSS</text>
+    <text x="25" y="22" text-anchor="middle" fill="white" font-size="8" font-family="monospace">JS</text>
+    <text x="25" y="32" text-anchor="middle" fill="white" font-size="8" font-family="monospace">HTML</text>
+  </g>
+  
+  <!-- Design Tools -->
+  <g transform="translate(300, 180)">
+    <circle cx="0" cy="0" r="25" fill="#8B5CF6" opacity="0.7"/>
+    <circle cx="0" cy="0" r="18" fill="#EC4899" opacity="0.8"/>
+    <circle cx="0" cy="0" r="12" fill="white"/>
+    <text x="0" y="4" text-anchor="middle" fill="#8B5CF6" font-size="8" font-weight="bold">🎨</text>
+  </g>
+  
+  <!-- Floating Icons -->
+  <g transform="translate(80, 80)">
+    <circle cx="0" cy="0" r="12" fill="#8B5CF6" opacity="0.6"/>
+    <text x="0" y="4" text-anchor="middle" fill="white" font-size="12">💻</text>
+  </g>
+  
+  <g transform="translate(320, 100)">
+    <circle cx="0" cy="0" r="12" fill="#EC4899" opacity="0.6"/>
+    <text x="0" y="4" text-anchor="middle" fill="white" font-size="12">⚡</text>
+  </g>
+  
+  <!-- Animated Elements -->
+  <g transform="translate(50, 150)">
+    <rect x="0" y="0" width="8" height="8" fill="#8B5CF6" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  
+  <g transform="translate(350, 200)">
+    <rect x="0" y="0" width="8" height="8" fill="#EC4899" opacity="0.8">
+      <animate attributeName="opacity" values="0.8;0.3;0.8" dur="1.5s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  
+  <!-- Connection Lines -->
+  <path d="M 160,200 Q 200,180 240,200" stroke="#8B5CF6" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 250,180 Q 280,160 300,180" stroke="#EC4899" stroke-width="2" fill="none" opacity="0.6"/>
+</svg>
