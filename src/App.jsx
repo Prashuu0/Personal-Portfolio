@@ -6,7 +6,6 @@ import Skills from './pages/Skills.jsx'
 import Services from './pages/Services.jsx'
 import Portfolio from './pages/Portfolio.jsx'
 import Contact from './pages/Contact.jsx'
-import FloatingCTA from './components/FloatingCTA.jsx'
 
 function App() {
   return (
@@ -21,7 +20,6 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-        <FloatingCTA />
       </div>
     </Router>
   )
