@@ -9,8 +9,8 @@ export default function Portfolio() {
       description: "An AI-driven education platform streamlining student, admin, and government interactions with VR-based campus tours and dynamic search for courses and scholarships.",
       technologies: ["React", "Node.js", "Express.js", "MongoDB", "TailwindCSS", "Gemini AI"],
       image: "/project-images/vidyasetu-education.svg",
-      github: "#",
-      live: "#",
+      github: "https://github.com/prashuu0/vidyasetu-ai",
+      live: "https://vidyasetu-ai.vercel.app",
       featured: true,
       icon: "🎓"
     },
@@ -20,8 +20,8 @@ export default function Portfolio() {
       description: "A mobile app offering real-time, offline-capable first-aid support using AI and AR for high-risk zones and rural areas.",
       technologies: ["React Native", "Firebase", "SQLite", "Dialogflow", "AR-Core/AR-Kit"],
       image: "/project-images/quicaid-medical.svg",
-      github: "#",
-      live: "#",
+      github: "https://github.com/prashuu0/quicaid-app",
+      live: "https://quicaid-app.vercel.app",
       featured: true,
       icon: "🚑"
     },
@@ -31,8 +31,8 @@ export default function Portfolio() {
       description: "A modern portfolio website to showcase personal projects, skills, and achievements with interactive design and smooth animations.",
       technologies: ["React.js", "TailwindCSS", "Framer Motion", "EmailJS"],
       image: "/project-images/portfolio-website.svg",
-      github: "#",
-      live: "#",
+      github: "https://github.com/prashuu0/personal-portfolio",
+      live: "https://prashant-kumar-portfolio.vercel.app",
       featured: false,
       icon: "💼"
     },
@@ -42,8 +42,8 @@ export default function Portfolio() {
       description: "A frontend e-commerce app that allows users to browse, search, and filter products with an interactive UI and Redux state management.",
       technologies: ["React.js", "Redux", "TailwindCSS", "Fake Store API"],
       image: "/project-images/ecommerce.svg",
-      github: "#",
-      live: "#",
+      github: "https://github.com/prashuu0/ecommerce-catalog",
+      live: "https://ecommerce-catalog-prashant.vercel.app",
       featured: false,
       icon: "🛒"
     },
@@ -53,8 +53,8 @@ export default function Portfolio() {
       description: "A sleek and intuitive web app for real-time currency conversion using live exchange rates with modern UI design.",
       technologies: ["React", "API Integration", "CSS3"],
       image: "/project-images/currency-converter.svg",
-      github: "#",
-      live: "#",
+      github: "https://github.com/prashuu0/currency-converter",
+      live: "https://currency-converter-prashant.vercel.app",
       featured: false,
       icon: "💱"
     },
@@ -64,8 +64,8 @@ export default function Portfolio() {
       description: "Built a personalized movie recommender using collaborative filtering on curated datasets with high accuracy in personalized suggestions.",
       technologies: ["Python", "Scikit-learn", "Pandas", "Machine Learning"],
       image: "/project-images/movie-recommendation.svg",
-      github: "#",
-      live: "#",
+      github: "https://github.com/prashuu0/movie-recommendation-ai",
+      live: "https://movie-recommendation-prashant.vercel.app",
       featured: false,
       icon: "🎬"
     }

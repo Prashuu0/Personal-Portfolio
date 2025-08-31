@@ -1,13 +1,20 @@
 {
-  "name": "apni-portfolio",
+  "name": "prashant-kumar-portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "description": "Professional portfolio website showcasing Full Stack Development, AI/ML projects, and achievements",
+  "author": "Prashant Kumar",
+  "keywords": ["portfolio", "react", "fullstack", "ai", "machine-learning", "web-development"],
+  "homepage": "https://prashant-kumar-portfolio.vercel.app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "npm run build && npm run preview",
+    "format": "prettier --write src/**/*.{js,jsx,css,md}",
+    "analyze": "npm run build && npx vite-bundle-analyzer dist"
   },
   "dependencies": {
     "framer-motion": "^12.23.12",
