@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import Background from '../components/Background.jsx'
+import ImageGallery from '../components/ImageGallery.jsx'
 
 export default function About() {
   return (
@@ -46,16 +47,21 @@ export default function About() {
               <p className="text-neutral-300 leading-relaxed text-lg mb-6">
                 Skilled in React.js, TailwindCSS, Java, JavaScript, and SQL, I enjoy creating modern, responsive, and user-friendly applications. My journey includes developing projects like Personal Portfolio Website, E-Commerce Product Catalog, and Currency Converter.
               </p>
-              <motion.a 
-                href="https://www.linkedin.com/in/prashant-kumar-b8aa23276/" 
-                target="_blank"
-                rel="noopener noreferrer"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="inline-flex items-center px-6 py-3 bg-fuchsia-500 hover:bg-fuchsia-600 text-white font-medium rounded-md transition-all duration-300 transform hover:scale-105 shadow-lg"
-              >
-                Connect on LinkedIn
-              </motion.a>
+              <div className="flex flex-wrap gap-4 items-center">
+                <motion.a 
+                  href="https://www.linkedin.com/in/prashant-kumar-b8aa23276/" 
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="inline-flex items-center px-6 py-3 bg-fuchsia-500 hover:bg-fuchsia-600 text-white font-medium rounded-md transition-all duration-300 transform hover:scale-105 shadow-lg"
+                >
+                  Connect on LinkedIn
+                </motion.a>
+                
+                {/* Prashu Pics Button */}
+                <ImageGallery />
+              </div>
             </motion.div>
             
             <motion.div 
