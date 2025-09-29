@@ -169,7 +169,7 @@ src/
 
 This portfolio is optimized for deployment on:
 - **Vercel** (Recommended)
-- **Netlify**
+- **Netlify live link** - https://p-portfolio-site.netlify.app
 - **GitHub Pages**
 - **Any static hosting service**
 
